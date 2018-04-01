@@ -25,11 +25,18 @@ body {
 img {
 width: 400px;
 }
+#space1, #space2, #space3 {
+	height: 400px;
+	display: flex;
+    align-items: center;
+}
 
 #space2, #space3 {
 	display: none;
 }
-
+#space2 p{
+	margin-top: 100px;
+}
 #picRules {
 	width: 245px;
 }
